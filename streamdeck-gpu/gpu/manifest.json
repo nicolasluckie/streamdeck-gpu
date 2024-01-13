@@ -1,0 +1,44 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/gpu",
+      "Name": "GPU",
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle",
+          "FontSize": "12"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Created by Nic Luckie",
+      "UUID": "com.nicolasluckie.gpu.gpu",
+      "PropertyInspectorPath": "PropertyInspector/Sample.html"
+    }
+  ],
+  "Author": "Nicolas Luckie",
+  "Description": "Displays the current GPU temperature.",
+  "Name": "GPU",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://nicluckie.ca/",
+  "Version": "1.0",
+  "CodePath": "com.nicolasluckie.gpu",
+  "Category": "GPU",
+  "CategoryIcon": "Images/categoryIcon",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.4.1"
+  },
+  "ApplicationsToMonitor": {
+    "windows": [
+      "notepad.exe",
+      "calc.exe"
+    ]
+  }
+}
