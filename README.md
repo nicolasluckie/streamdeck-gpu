@@ -9,28 +9,17 @@
 
 <p align="center">A Stream Deck plugin that displays the current GPU temperature.</p>
 
+![usage](/usage.gif)
+
 <p align="center"><a href="https://github.com/nicolasluckie/streamdeck-gpu/actions/workflows/main.yml"><img src="https://github.com/nicolasluckie/streamdeck-gpu/actions/workflows/main.yml/badge.svg" alt="Build Status"></a></p>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about">About</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#building-from-source">Building from Source</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#change-log">Change Log</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- [About](#about)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Building from Source](#building-from-source)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 ## About
 
@@ -79,18 +68,7 @@ Before you begin, ensure the following are installed:
 
 7. Follow steps 2-5 of the [Installation](#installation) instructions to load the plugin into Stream Deck.
 
-## Usage
-
-![usage](/usage.gif)
-
-## Change Log
-
-### Version 1.0.0
-- Initial commit
-
-## License
-
-[License](/LICENSE)
+## [License](./LICENSE)
 
 ## Acknowledgments
 

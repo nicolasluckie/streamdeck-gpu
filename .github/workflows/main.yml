@@ -1,16 +1,16 @@
-name: Build Status
-
+name: Build
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
   build:
-
     runs-on: windows-latest
-
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
